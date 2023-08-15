@@ -1,0 +1,11 @@
+@HOST = http://localhost:3333 
+
+POST {{HOST}}/recruiter HTTP/1.1
+Content-Type: application/json 
+
+{
+    "name": "Gabriela",
+    "email": "eudenovo@teste.com",
+    "password": "123456",
+    "enterpriseName": "Grow"
+}
